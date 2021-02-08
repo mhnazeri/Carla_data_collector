@@ -1,6 +1,6 @@
 # Learning by Cheating
 
-![teaser](https://github.com/dianchen96/LearningByCheating/blob/release-0.9.6/figs/fig1.png "Pipeline")
+![teaser](assets/fig1.png "Pipeline")
 > [**Learning by Cheating**](https://arxiv.org/abs/1912.12294)    
 > Dian Chen, Brady Zhou, Vladlen Koltun, Philipp Kr&auml;henb&uuml;hl,        
 > [Conference on Robot Learning](https://www.robot-learning.org) (CoRL 2019)      
