@@ -1,3 +1,4 @@
+Carla data collector code based on "Learning by Cheating" repo.
 # Learning by Cheating
 
 ![teaser](assets/fig1.png "Pipeline")
