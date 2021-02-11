@@ -20,13 +20,13 @@ if [ -d "$TEAM_CONFIG" ]; then
             CHECKPOINT_ENDPOINT="$(dirname $TEAM_CONFIG)/$(basename $ROUTES .xml).txt"                     
 fi                                                                                                         
                                                                                                            
-python3 leaderboard/leaderboard/leaderboard_evaluator.py \                                                 
-    --track=SENSORS \                                                                                      
-    --scenarios=leaderboard/data/all_towns_traffic_scenarios_public.json  \                                
-    --agent=${TEAM_AGENT} \                                                                                
-    --agent-config=${TEAM_CONFIG} \                                                                        
-    --routes=${ROUTES} \                                                                                   
-    --checkpoint=${CHECKPOINT_ENDPOINT} \                                                                  
-    --port=${PORT} 
+python3 leaderboard/leaderboard/leaderboard_evaluator.py \
+--track=SENSORS \
+--scenarios=leaderboard/data/all_towns_traffic_scenarios_public.json  \
+--agent=${TEAM_AGENT} \
+--agent-config=${TEAM_CONFIG} \
+--routes=${ROUTES} \
+--checkpoint=${CHECKPOINT_ENDPOINT} \
+--port=${PORT}
 
 echo "Done."
